@@ -19,5 +19,8 @@ namespace TailSpin.SpaceGame.Web.Models
         // The game region (map) the score is associated with.
         [JsonPropertyName("gameRegion")]
         public string GameRegion { get; set; }
+
+        [JsonPropertyName("gameStype")]
+        public string GameStyle { get; set; }
     }
 }
